@@ -1,5 +1,8 @@
 <img src="https://github.com/evertonbsi/django-enket/blob/main/polls/Screenshot%202022-08-22%20at%2007-09-28%20frontend.png?raw=true"/>
 
+
+> Esta aplicação foi usada durante o meu teste, resultando na minha aprovação para a vaga de Desenvolvedor Júnior em agosto de 2022.
+
 **viaprodutos** é um sistema web feito em Django Rest Framework e Vuejs, com objetivo de pesquisar e listar produtos de lojas do grupo viavarejo(Casas Bahia, Extra e Ponto Frio) através de uma API que mostra informações como: Preço do produto, Descontos, disponibilidade do produto, etc.
 
 O sistema possui um frontend simples e intuitivo que permite realizar a busca através de um único campo de texto, sendo necessário selecionar qual a loja escolhida, quantos itens terá em resultados na página e o nome do produto. *Ambos os filtros são obrigatórios.**
