@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    transition: 0.2s opacity;
+    color:rgb(10, 152, 105);
+}
+
+a:hover{
+    opacity: 0.8;
+    color: rgb(0, 67, 0);
+}
+
+section{
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}

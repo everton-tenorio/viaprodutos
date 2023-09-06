@@ -1,0 +1,23 @@
+version: '3.7'
+services:
+    app:
+        container_name: 'viaprodutos_app'
+        restart: always
+        build: ./frontend
+        ports:
+            - 8080:8080
+        networks:
+            - viaprodutos-net
+    api:
+        build: ./api
+        container_name: 'viaprodutos_api'
+        restart: always
+        environment:
+            - PYTHONBUFFERED=1
+        ports:
+            - 8000:8000
+        networks:
+            - viaprodutos-net
+networks:
+  viaprodutos-net:
+    driver: bridge
